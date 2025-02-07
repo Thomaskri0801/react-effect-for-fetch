@@ -1,5 +1,4 @@
 function UserListItem(props) {
-    console.log(props)
     props = props.userItem
     return (
         <li style={{ background: `${props.favouriteColour}` }}>
